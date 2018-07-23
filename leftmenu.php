@@ -49,38 +49,90 @@
                     }
                   ?>
 
-                  <?php
-                    if($halaman=='divecenter'){
-                  ?>
-                  <li class="sub-menu">
+
+
+                      <?php
+
+                        if($parent=='dive'){
+
+                      ?>
+                      <li class="sub-menu">
                       <a class="active" href="javascript:;" >
                           <i class="fa fa-anchor"></i>
                           <span>Dive Center</span>
                       </a>
-                      <ul class="sub">
+
+                        
+                        <ul class="sub">
+                        <?php
+                         if($halaman=='divecenter'){
+                         ?>
                           <li class="active"><a  href="divecenter.php">Dive Center</a></li>
-                          <li><a  href="gallery.html">Gallery</a></li>
-                          <li><a  href="todo_list.html">Todo List</a></li>
+                          
+                        
+
+                        <?php
+                          }
+                          else {
+                        ?>
+                          
+                          <li><a href="divecenter.php">Dive Center</a></li>
+                        
+                        <?php
+                          }
+                        ?>
+
+                        <?php
+                         if($halaman=='divecenter2'){
+                         ?>
+                       
+                          <li class="active"><a href="divecenter2.php">Dive Center 2</a></li>
+                    
+
+                        <?php
+                          }
+                          else {
+                        ?>
+                          
+                          <li><a href="divecenter2.php">Dive Center 2</a></li>
+                        
+
+                        <?php
+                          }
+                        ?>
+
                       </ul>
-                  </li>
-<?php
-}
-else{
-?>
-<li class="sub-menu">
+
+                      </li>
+
+                      <?php
+                        }
+                        else {
+
+                      ?>
+
+                      <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-anchor"></i>
                           <span>Dive Center</span>
                       </a>
                       <ul class="sub">
                           <li><a  href="divecenter.php">Dive Center</a></li>
-                          <li><a  href="gallery.html">Gallery</a></li>
-                          <li><a  href="todo_list.html">Todo List</a></li>
+                          <li><a  href="divecenter2.php">Dive Center 2</a></li>
+                          
                       </ul>
-                  </li>
-<?php
-}
-?>
+                      </li>
+
+
+                      <?php
+
+                        }
+
+                      ?>
+
+
+       
+
                   <?php
                       if($halaman=='batee_tokong'){
                   ?>

@@ -1,7 +1,8 @@
 <?php
-$parent="news";
-$halaman="news";
+$parent="admin";
+$halaman="admin";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <?php 
@@ -37,10 +38,18 @@ $halaman="news";
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Blank Page</h3>
+          	<h3><i class="fa fa-angle-right"></i> Input Log Dive</h3>
           	<div class="row mt">
           		<div class="col-lg-12">
           		<p>Place your content here.</p>
+
+              <div class="form-group">
+                              <label class="col-sm-2 col-sm-2 control-label">Default</label>
+                              <div class="col-sm-10">
+                                  <input type="text" class="form-control">
+                              </div>
+              </div>
+
           		</div>
           	</div>
 			

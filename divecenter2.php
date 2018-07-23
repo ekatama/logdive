@@ -1,6 +1,6 @@
 <?php
-$parent="news";
-$halaman="news";
+$parent="dive";
+$halaman="divecenter2";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,10 +37,10 @@ $halaman="news";
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Blank Page</h3>
+          	<h3><i class="fa fa-angle-right"></i> Dive Center 2</h3>
           	<div class="row mt">
           		<div class="col-lg-12">
-          		<p>Place your content here.</p>
+          		<p>This page for Dive Center 2</p>
           		</div>
           	</div>
 			

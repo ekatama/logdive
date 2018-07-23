@@ -1,4 +1,5 @@
 <?php
+$parent="dashboard";
 $halaman="dashboard";
 ?>
 <!DOCTYPE html>
